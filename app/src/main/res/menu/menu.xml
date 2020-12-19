@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="My Apps">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_calculator"
+                    android:icon="@drawable/ic_calculator"
+                    android:title="Calculator" />
+                <item
+                    android:id="@+id/nav_quiz"
+                    android:icon="@drawable/ic_quiz"
+                    android:title="Algo Quiz" />
+            </group>
+        </menu>
+    </item>
+</menu>
