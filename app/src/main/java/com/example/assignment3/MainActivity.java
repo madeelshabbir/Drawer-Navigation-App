@@ -58,14 +58,14 @@ public class MainActivity extends AppCompatActivity {
                 {
                     case R.id.nav_calculator :
                         Toast.makeText(getApplicationContext(),"Calculator",Toast.LENGTH_LONG).show();
-                        //Intent intent = new Intent(MainActivity.this, BookActivity.class);
-                        //startActivity(intent);
-                        //drawerLayout.closeDrawer(GravityCompat.START);
+                        Intent intent = new Intent(MainActivity.this, CalculatorApp.class);
+                        startActivity(intent);
+                        drawerLayout.closeDrawer(GravityCompat.START);
                         break;
 
                     case R.id.nav_quiz :
                         Toast.makeText(getApplicationContext(),"Algo Quiz",Toast.LENGTH_LONG).show();
-                        //drawerLayout.closeDrawer(GravityCompat.START);
+                        drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                 }
                 return true;
